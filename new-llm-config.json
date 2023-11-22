@@ -1,0 +1,89 @@
+{
+    "OpenAI_Models": {
+        "GPT-4": {
+            "description": "A large multimodal model, improved from GPT-3.5, capable of solving complex problems with advanced reasoning",
+            "use_cases": ["Natural language understanding", "Code generation"],
+            "api_key_var": "OPENAI_API_KEY"
+        },
+        "GPT-3.5": {
+            "description": "Improves on GPT-3, proficient in understanding and generating natural language or code",
+            "use_cases": ["Content creation", "Code generation"],
+            "api_key_var": "OPENAI_API_KEY"
+        },
+        "GPT-3": {
+            "description": "The original model capable of understanding and generating natural language",
+            "use_cases": ["Language tasks", "Fine-tuning applications"],
+            "api_key_var": "OPENAI_API_KEY"
+        },
+        "DALL·E": {
+            "description": "Generates and edits images from natural language descriptions",
+            "use_cases": ["Image creation", "Artwork generation"],
+            "api_key_var": "OPENAI_API_KEY"
+        },
+        "Whisper": {
+            "description": "Speech recognition model that works across multiple languages",
+            "use_cases": ["Speech-to-text conversion", "Language identification"],
+            "api_key_var": "OPENAI_API_KEY"
+        },
+        "Embeddings": {
+            "description": "Converts text into numerical form for various applications",
+            "use_cases": ["Search optimization", "Text clustering"],
+            "api_key_var": "OPENAI_API_KEY"
+        },
+        "Codex": {
+            "description": "Understands and generates code, trained on vast open-source code",
+            "use_cases": ["Code generation", "Natural language to code translation"],
+            "api_key_var": "OPENAI_API_KEY"
+        },
+        "Moderation": {
+            "description": "Classifies content according to OpenAI’s usage policies",
+            "use_cases": ["Content moderation", "Safety checks"],
+            "api_key_var": "OPENAI_API_KEY"
+        }
+    
+    },
+    "OpenSource_Models": {
+        "Gato": {
+            "description": "DeepMind's multimodal model, handling various data types, suitable for complex tasks requiring cross-modal understanding.",
+            "use_cases": ["Multimodal integration", "Advanced analytics"],
+            "source": "deepmind.com/research/publications/gato",
+            "cost_efficiency": "High"
+        },
+        "CLIP": {
+            "description": "Connects text and images, ideal for creative tasks and preliminary design works.",
+            "use_cases": ["Image-text pairing", "Creative exploration"],
+            "source": "openai.com/clip",
+            "cost_efficiency": "High"
+        },
+        "Mistral 7B": {
+            "description": "Efficient language model, suitable for generating large volumes of text or initial drafts.",
+            "use_cases": ["Bulk content creation", "Initial draft generation"],
+            "source": "link_to_mistral_7b",
+            "cost_efficiency": "High"
+        },
+        "Dolphin": {
+            "description": "Specialized in multimodal processing, perfect for projects requiring integration of text and image data.",
+            "use_cases": ["Multimodal data analysis", "Integrated content creation"],
+            "source": "link_to_dolphin",
+            "cost_efficiency": "Moderate-High"
+        },
+        "Point-E": {
+            "description": "Generative model for producing 3D point cloud representations, useful in 3D modeling and visualization.",
+            "use_cases": ["3D design", "Spatial data representation"],
+            "source": "github.com/point-e",
+            "cost_efficiency": "Moderate"
+        },
+        "Whisper Open Source": {
+            "description": "Versatile for speech recognition tasks in multiple languages, suitable for transcription and translation.",
+            "use_cases": ["Audio transcription", "Cross-language translation"],
+            "source": "github.com/whisper",
+            "cost_efficiency": "High"
+        },
+        "Jukebox": {
+            "description": "Creates music and audio, ideal for artistic and entertainment purposes.",
+            "use_cases": ["Music generation", "Audio experimentation"],
+            "source": "github.com/jukebox",
+            "cost_efficiency": "Moderate"
+        }
+    }
+}
