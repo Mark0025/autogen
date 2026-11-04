@@ -8,6 +8,12 @@
 
 # AutoGen
 
+## About
+- **What it is:** A copy of Microsoft's AutoGen framework for building apps where several AI agents work together.
+- **Business:** learning
+- **Status:** inactive since 2023-11
+- **Source:** agent research 2026-11-04
+
 <!-- <p align="center">
     <img src="https://github.com/microsoft/autogen/blob/main/website/static/img/flaml.svg"  width=200>
     <br>
